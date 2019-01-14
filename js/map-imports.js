@@ -222,7 +222,7 @@ $(document).ready(function() {
                 ${data.totalAmount}<br>
                 ${data.index}
 
-                <p>Main Clients:<br>
+                <p>Main Suppliers:<br>
                 ${data.mainClients}</p>
               </div>`
     }
