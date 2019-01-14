@@ -1,0 +1,316 @@
+body {
+  font-family: 'Exo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ba9077;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.title {
+  font-size: 68px;
+  color: #fff;
+  text-align: center;
+  margin: 0 0;
+  font-weight: 300;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.bg-violet {
+  background-image: url("../images/first-slide.jpg");
+  background-color: #74657F;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-green {
+  background: #4A5453;
+}
+
+.bg-blue {
+  background-image: url("../images/third-slide.jpg");
+  background-color: #bcd5d1;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-text {
+  color: #fff;
+  max-width: 320px;
+  font-weight: 300;
+  font-size: 16px;
+  margin: auto;
+  text-align: justify;
+}
+
+blockquote {
+  font-size: 20px;
+  font-style: italic;
+  width: 600px;
+  margin: auto;
+  margin-top: 130px;
+  padding: 0.35em 32px;
+  line-height: 1.45;
+  position: relative;
+  color: #1d2120;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 140px;
+  position: absolute;
+  left: -40px;
+  top: -50px;
+  color: #4a5453;
+  display: block;
+}
+
+blockquote cite {
+  color: #1d2120;
+  font-size: 16px;
+  display: block;
+  margin-top: 5px;
+  text-align: right;
+  text-decoration: none;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
+  color: #ba9077;
+}
+
+.trump {
+  background-image: url('../images/trump.png');
+  background-position: center bottom;
+  background-size: 500px;
+  background-repeat: no-repeat;
+}
+
+.trump > .fp-tableCell {
+  vertical-align: top;
+}
+
+.basic-constraints {
+  color: #1d2120;
+  max-width: 500px;
+  text-align: left;
+  margin: auto;
+  font-weight: 300;
+}
+
+.basic-constraints h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.basic-constraints h4 {
+  color: #1d2120;
+  font-weight: 300;
+  margin: 0;
+}
+
+.basic-constraints p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.item {
+  margin: 20px;
+}
+
+.section-title h2 {
+  margin-top: 38px;
+  text-align: center;
+  color: #1d2120;
+}
+
+.section-title p {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: #1d2120;
+}
+
+#exports-map {
+  margin: auto;
+  width: 1000px;
+}
+
+.wholeExports {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.types {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.clients {
+  position: absolute;
+  top: 370px;
+  margin-left: 350px;
+  width: 150px;
+  height: 150px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.chart-wrapper {
+  width: 600px;
+  height: 721px;
+  margin: auto;
+}
+
+.datamaps-bubble {
+  fill: #4a5453 !important;
+  stroke: #4a5453 !important;
+}
+
+/*.datamaps-bubble:hover {
+  fill: #4a5453 !important;
+}*/
+
+.hoverinfo {
+  padding: 15px 20px !important;
+  font-family: 'Exo', sans-serif !important;
+  font-size: 10px !important;
+  border-color: #5a5c5156 !important;
+  background-color: #ffffffc0 !important;
+}
+
+.map {
+  padding: 0 100px;
+  display: block;
+}
+
+.map > .fp-tableCell {
+  vertical-align: top;
+}
+
+/*Charts*/
+
+.highcharts-root {
+  font-family: 'Exo', sans-serif !important;
+  font-weight: 300;
+  font-size: 16px !important;
+  width: 1100px !important;
+  color: #1d2120 !important;
+}
+
+#export-chart {
+  height: 600px !important;
+}
+
+.highcharts-container {
+  text-align: center !important;
+}
+
+.highcharts-point {
+  stroke-width: 0 !important;
+}
+
+.highcharts-title {
+  color: #1d2120 !important;
+  font-size: 23px !important;
+}
+
+/*Regions*/
+
+.highcharts-text-outline {
+  stroke: none;
+}
+
+.regions-legend {
+  position: absolute;
+  top: 20%;
+  max-width: 230px;
+  margin-left: 50px;
+  z-index: 9999;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.regions-legend-e {
+  position: absolute;
+  top: 20%;
+  max-width: 230px;
+  margin-left: 50px;
+  z-index: 9999;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.fifth-slide {
+  background-image: url("../images/fifth-slide.jpg");
+  background-color: white;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eight-slide {
+  background-image: url("../images/eight-slide.jpg");
+  background-color: white;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eleventh-slide {
+  background-image: url("../images/eleventh-slide.jpg");
+  background-color: white;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourteenth-slide {
+  background-image: url("../images/fourteenth-slide.jpg");
+  background-color: white;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.last-slide {
+  background-image: url("../images/last-slide.jpg");
+  background-color: white;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.final {
+  color: #1d2120;
+  max-width: 500px;
+  text-align: left;
+  margin: auto;
+  font-weight: 300;
+  font-size: 14px;
+}

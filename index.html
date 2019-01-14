@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>International Arms Transfers</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/fullpage.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Exo:300,300i,500" rel="stylesheet">
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section bg-violet">
+        <p class="title">Who Wants War?</p>
+        <p class="subtitle">Data Visualization of the International Arms Transfers from 2013 to 2017</p>
+      </div>
+
+      <div class ="section trump">
+        <blockquote>
+          If they don’t buy it from us, they’re going to buy it from Russia or they’re going to buy it from China, or they’re going to buy it from other countries.
+          <cite><a href="https://www.nytimes.com/2018/10/14/us/politics/trump-saudi-arabia-arms-deal.html">Donald Trump</a></cite>
+        </blockquote>
+      </div>
+
+      <div class="section bg-blue">
+        <p class="intro-text">
+          Despite of many public discussions concerning the global arms control and the need to limit the spread of military technologies around the world, the trend in international transfers of major weapons continues to be upward. This data visualization helps you to explore this tendency. It contains the export and import data of 25 largest importers and exporters of major arms in 2013–2017, including their main clients, suppliers, and types of weapons. The data is provided by the SIPRI Arms Transfers Database.
+        </p>
+      </div>
+
+      <div class="section basic-constraints">
+        <div class="item">
+          <h2>What should I know about the<br>SIPRI data collection method?</h2>
+        </div>
+
+        <div class="item">
+          <h4>COVERAGE</h4>
+          <p>This data relates to actual deliveries of major conventional weapons. The SIPRI Arms Transfers Database covers all international sales, gifts of weapons, and manufacturing licences.</p>
+        </div>
+
+        <div class="item">
+          <h4>FIGURES</h4>
+          <p>Figures are SIPRI Trend Indicator Values (TIVs) expressed in millions. The SIPRI trend-indicator value is a measure of the volume of international transfers of major weapons. More detailed description of this method can be found at the SIPRI website:<br>
+            <a href="https://www.sipri.org/databases/armstransfers/sources-and-methods">https://www.sipri.org/databases/armstransfers/sources-and-methods.</a></p>
+        </div>
+
+
+        <div class="item">
+          <h4>TYPES OF WEAPONS</h4>
+          <p>SIPRI covers only major weapons. You can check out the specific definitions for each type of weapon here:<br>
+          <a href="https://www.sipri.org/databases/armstransfers/sources-and-methods">https://www.sipri.org/databases/armstransfers/sources-and-methods.</a></p>
+        </div>
+      </div>
+
+      <div class="section fifth-slide">
+        <p class="title">Who Are the Exporters?</p>
+      </div>
+
+      <div class="section map">
+        <div class="section-title">
+          <h2>The top 25 largest <b>exporters</b> of major arms and their main clients</h2>
+          <p>Hover the mouse over the circles to see the total amount of exports of the country, the per cent change of exports from 2008–2012 and the country's main clients.<br>Figures are TIVs (SIPRI Trend Indicator Values) expressed in millions.<br>The number one (1) indicates countries where military conflicts took place between 2013 and 2017.</p>
+        </div>
+        <div id="container" style="position: relative; width: 1080px; height: 420px; margin-top: 40px"></div>
+      </div>
+
+      <div class="section">
+        <div id="export-chart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+      </div>
+
+      <div class="section eight-slide">
+        <p class="title">Who Are the Importers?</p>
+      </div>
+
+      <div class="section map">
+        <div class="section-title">
+          <h2>The top 25 largest <b>importers</b> of major arms and their main suppliers</h2>
+          <p>Hover the mouse over the circles to see the total amount of imports of the country, the per cent change of imports from 2008–2012 and the country's main suppliers.<br>Figures are TIVs (SIPRI Trend Indicator Values) expressed in millions.<br>The number two (2) indicates countries where military conflicts took place between 2013 and 2017.</p>
+        </div>
+        <div id="container-imports" style="position: relative; width: 1080px; height: 420px; margin-top: 40px"></div>
+      </div>
+
+      <div class="section">
+        <div id="import-chart" style="min-width: 310px; height: 600px; margin: 0 auto"></div>
+      </div>
+
+      <div class="section eleventh-slide">
+        <p class="title">Exports/Imports by Regions</p>
+      </div>
+
+      <div class="section">
+        <div class="regions-legend-e">
+            <p>The chart indicates that countries outside Europe and America play only a small role in the global export of arms.</p>
+            <p>The top five exporters in 2013–2017 – the USA, Russia, France, Germany and China – exported 11 per cent more arms than the countries comprising the top five in 2008–2012.</p>
+          </div>
+        <div id="regions-exports" style="min-width: 310px; height: 600px;" ></div>
+      </div>
+
+      <div class="section">
+        <div class="regions-legend">
+            <p>The main recipient regions in 2013–2017 were Asia and Oceania and the Middle East.</p>
+            <p>The flow of arms to the Middle East and Asia and Oceania increased between 2008–2012 and 2013–2017, while there was a decrease in the flow to the Americas, Africa and Europe.</p>
+          </div>
+        <div id="regions" style="min-width: 310px; height: 600px;" ></div>
+      </div>
+
+      <div class="section fourteenth-slide">
+        <p class="title">Explore the Five-Year Trend</p>
+      </div>
+
+      <div class="section">
+        <div id="explore-trend" style="min-width: 310px; height: 600px; margin: 0 auto"></div>
+        </div>
+
+      <div class="section last-slide">
+        <p class="final">ABOUT THIS PROJECT</p>
+        <p class="final">This was a final project in the BA European Media Studies course at the University of Potsdam in co-operation with the University of Applied Sciences Potsdam. Special thanks to my professors, Jan Distelmeyer and Constanze Langer, for their guidance through this project, their ideas, and valuable feedback. I would also like to thank my friend, Vitaly Lyapunov, student assistant and software developer at the Max Planck Institute for the History of Science, for his constructive criticism and technical support.</p><br>
+        <p class="final">AUTHOR</p>
+        <p class="final">Alina Gordeeva, 2019</p><br>
+        <p class="final">TOOLS</p>
+        <p class="final"><a href="http://datamaps.github.io">http://datamaps.github.io</a> – To make map<br>
+          <a href="https://www.highcharts.com/demo/">https://www.highcharts.com/demo/</a> – To make charts<br>
+          <a href="https://github.com/alvarotrigo/fullPage.js">https://github.com/alvarotrigo/fullPage.js</a> – To make fullscreen scrolling website</p><br>
+        <p class="final">REFERENCES</p>
+        <p class="final"><a href="https://www.sipri.org/databases/armstransfers">https://www.sipri.org/databases/armstransfers</a> – SIPRI Arms Transfers Database<br>
+          <a href="https://www.sipri.org/publications/2018/sipri-fact-sheets/trends-international-arms-transfers-2017">https://www.sipri.org/publications/2018/sipri-fact-sheets/trends-international-arms-transfers-2017</a> – SIPRI Fact Sheet, March 2018</p>
+          <p class="final">
+          <a href="https://en.wikipedia.org/wiki/List_of_wars_2003%E2%80%93present">https://en.wikipedia.org/wiki/List_of_wars_2003%E2%80%93present</a> – List of wars 2003–present | Wikipedia</p><br>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="js/datamaps.world.min.js"></script>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/chart.js"></script>
+    <script type="text/javascript" src="js/map-imports.js"></script>
+    <script type="text/javascript" src="js/chart-imports.js"></script>
+    <script type="text/javascript" src="js/trend.js"></script>
+    <script type="text/javascript" src="js/regions.js"></script>
+    <script type="text/javascript" src="js/regions-exports.js"></script>
+  </body>
+</html>
